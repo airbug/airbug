@@ -1,2 +1,2 @@
 # airbug
-Debug assistant for JS
+Open source social network for developers.

@@ -1,0 +1,37 @@
+{
+  "name": "airbug-build",
+  "private": true,
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "clean": "./scripts/clean.sh",
+    "lint": "./scripts/lint.sh",
+    "prepublish": "./scripts/prepublish.sh",
+    "postinstall": "./scripts/postinstall.sh",
+    "run:ios": "./scripts/run-ios.sh",
+    "start": "./scripts/start.sh",
+    "test": "./scripts/test.sh"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "eslint": "^3.19.0",
+    "eslint-cli": "^1.1.0",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "author": "Brian Neisler <brian@airbug.com>",
+  "homepage": "https://github.com/airbug/airbug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airbug/airbug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airbug/airbug/issues"
+  },
+  "license": "MIT"
+}
